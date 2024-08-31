@@ -6,6 +6,7 @@ let msg_container = document.querySelector(".msg-container");
 let count = 0;
 function myCount(){
     count++;
+    msg.innerHTML = `Your daily count is : ${count}`;
 }
 
 
